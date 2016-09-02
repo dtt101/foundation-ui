@@ -1,6 +1,25 @@
-<h3>Total: {{model.length}}</h3>
-<ul>
-  {{#each model as |user|}}
-    <li>{{user.id}}: {{user.username}} | {{user.email}}</li>
-  {{/each}}
-</ul>
+<table class="mt3 fit">
+  <thead class="p1 h3">
+    <tr class="white bg-blue">
+      <th>ID</th>
+      <th>Username</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody class="p1 h4">
+    {{#each model as |user|}}
+      <tr>
+        <td class="border-bottom">
+          {{user.id}}
+        </td>
+        <td class="border-bottom">
+          {{user.username}}
+        </td>
+        <td class="border-bottom">
+          {{user.email}}
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+<div><h4>Total: {{model.length}}</h4></div>
