@@ -1,7 +1,12 @@
-# Foundation-ui
+# Foundation-UI
 
 This application displays user details from the foundation API at
 https://dtt-foundation.herokuapp.com
+
+It illustrates connecting to a JSON-API backend with ember, and how to use
+ember-cli-mirage and faker to run ember acceptance tests.
+
+* Visit [http://localhost:4200/users](http://localhost:4200/users) to see a list of users from the foundation API.
 
 ## Prerequisites
 
@@ -15,8 +20,8 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone https://github.com/dtt101/foundation-ui.git` this repository
+* `cd foundation-ui`
 * `npm install`
 * `bower install`
 
@@ -25,14 +30,6 @@ You will need the following things properly installed on your computer.
 * `ember s --proxy https://dtt-foundation.herokuapp.com`
 * Visit the app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
 ### Running Tests
 
 * `ember test`
-
-### Routes
-
-* Visit [http://localhost:4200/users](http://localhost:4200/users) to see a list of users from the foundation API.
