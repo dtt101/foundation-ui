@@ -20,10 +20,12 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone https://github.com/dtt101/foundation-ui.git` this repository
-* `cd foundation-ui`
-* `npm install`
-* `bower install`
+```
+git clone https://github.com/dtt101/foundation-ui.git
+cd foundation-ui
+npm install
+bower install
+```
 
 ## Running / Development
 
